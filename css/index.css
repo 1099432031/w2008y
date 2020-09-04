@@ -1,0 +1,606 @@
+/* 初始化 */
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,p{
+    margin: 0;
+    padding: 0;
+}
+ul ,ol{
+    list-style: none;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+body{
+    font-size: 16px;
+    /*字体  */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #104761;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    height: 29px;
+    border-bottom: turquoise 1px solid ;
+    margin-bottom: 20px;
+    background: rgb(1, 48, 30);
+}
+
+
+
+
+
+/* div{
+    width: 1170px;
+    margin:0 auto ;
+} */
+.header{
+    width: 1170px;
+    height: 90px;
+    background:red;
+    margin: 0 auto;
+    /* font-size: 70px;
+    font-weight: bold; */
+}
+/* .soft{
+    width: 100% ;
+    height: 40px;
+    background:rgb(111, 0, 255);
+    margin-bottom: 20px;
+}
+.yi{
+    height: 340px;
+    margin: 20px auto ;
+    background:rgb(68, 0, 255);
+}
+.er{
+    height: 68.44px;
+    background:rgb(255, 102, 0);
+}.san{
+    height: 412.6px ;
+    background:rgb(99, 160, 41);
+    margin-bottom: 20px;
+}.si{
+    height: 60.44px ;
+    background:rgb(77, 25, 223);
+}.wu{
+    height: 928.8px;
+    background:rgb(0, 255, 21);
+    margin-bottom: 20px;
+}.liu{
+    height: 88px ;
+    background:rgb(14, 199, 143);
+}.qi{
+    height: 788.8px;
+    background:rgb(164, 223, 26);
+    margin-bottom: 20px;
+}.ba{
+    height: 728.8px;
+    background:rgb(233, 10, 58);
+    margin-bottom: 20px;
+}
+.jiu{
+    height: 728.8px;
+    background:rgb(74, 129, 131);
+    margin-bottom: 20px;
+}.shi{
+    height: 728.8px;
+    background:rgb(85, 13, 29);
+    margin-bottom: 20px;
+}
+.shiyi{
+    height: 747.8px;
+    background: rgb(96, 143, 204);
+    margin-bottom: 20px;
+}
+.shier{
+    height: 783.8px;
+    background: mediumseagreen;
+    margin-bottom: 20px;
+}
+.shisan{
+    height: 213.8px;
+    background: rgb(9, 136, 64);
+    margin-bottom: 20px;
+    
+}
+.shisi{
+    height: 728.8px;
+    background: mediumseagreen;
+    margin-bottom: 20px;
+
+
+}
+.shiwu{
+    height: 747.8px;
+    background: lightseagreen;
+    margin-bottom: 20px;
+
+}
+.shiliu{
+    height: 783.8px;
+    background: lightgreen;
+    margin-bottom: 20px;
+
+}
+.shiqi{
+    height: 213.8px;
+    background: lightcoral;
+    margin-bottom: 20px;
+
+
+}
+.shiba{
+    height: 187,6px;
+    background: lavenderblush;
+} */
+
+
+
+/* header end */
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background:#1487f4;
+    margin: 0 auto 20px;
+
+}
+.nav .nav-list{
+    width: 1170px;
+    height:100%;
+    background: rgb(133, 226, 226);
+    margin:0 auto;
+
+}
+.nav .nav-list .nav-list-item{
+     float: left;
+     width: 100px;
+     height: 100%;
+     margin-right: 10px;
+     background: rgb(36, 6, 145);
+
+}
+.nav .nav-list .nav-list-item a{
+    display: block;
+    height: 100%;
+
+    color: #ffffff;
+    background: rgb(8, 97, 230);
+    /* 水平方向居中 */
+    text-align:center ;
+    /* 行高 */
+    line-height: 50px;
+    background: rgb(0, 128, 85);
+    transition: all 100ms ease;
+}
+.nav .nav-list .nav-list-item a:hover{
+    background: rgb(77, 7, 189);
+}
+
+
+.flash-purchase{
+    width:1130px ;
+    height:426px ;
+    margin:20px auto ;
+    padding: 20px;
+    background: cornflowerblue;
+    
+}
+.title{
+    height: 29px;
+    border-bottom: 1px solid rgb(49, 49, 204);
+    margin-bottom: 20px;
+    background: darkorange;
+}
+.flash-purchase .flash-purchase-bottom{
+    height: 376px;
+    background: rgb(229, 255, 0);
+}
+.flash-purchase-bottom .flash-purchase-left{
+    float:left;
+    width: 318px;
+    height:100%;
+    background: rgb(30, 10, 75);
+}
+.flash-purchase-bottom .flash-purchase-right{
+    float:left;
+    width: 812px;
+    height: 100%;
+    background: rgb(14, 107, 79);
+}
+.flash-purchase-bottom .flash-purchase-right .flash-purchase-some{
+    float:left;
+    width: 354px;
+    height: 90px;
+    margin-left: 25px;
+    /* margin-bottom: 10px; */
+    margin-bottom: 20px;
+    background:rgb(25, 96, 124);
+    border: 1px solid rebeccapurple;
+} 
+
+.flash-purchase-some a{
+    /* float: left; */
+    display: block;
+    height: 100%;
+    background: rgb(22, 103, 158);
+}
+.flash-purchase-some .flash-purchase-time{
+    float: left;
+    width: 90px;
+    height: 90px;
+    background-color: ;
+}
+.flash-purchase-some div{
+    float: left;
+    width: 70px;
+    height: 50px;
+    text-align: center; 
+    padding: 20px 10px;
+    color:#fff ;
+    background: rgb(81, 92, 95);
+    transition: all 1000ms ease;
+}
+.flash-purchase-right .flash-purchase-some a{
+   display: block;
+   height: 110px;
+   background: #1487f4;
+   color: #ffffff;
+   text-align: center;
+   width: 100%;
+   /* line-height: 100px;
+   transition: all 100ms ease ; */
+    }
+.flash-purchase-right .flash-purchase-some a:hover{
+    background:rgb(255, 41, 3);
+    }
+
+
+
+.banner{
+    margin: 0 auto;
+    width: 1170px;
+    height: 340px;
+    margin-bottom: 20px;
+    background: lime;
+}
+.banner .banner-img{
+    position: relative;
+    width: 702px;
+    height: 100%;
+    float: left;
+    background: rgb(70, 14, 14);
+}
+/* .banner .banner-img a{
+    display: block;
+    height: 100%;
+} */
+.banner .banner-img a img{
+    width: 100%;
+    height: 100%;
+}
+.banner-img .btn-bottom{
+    width: 72px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -36px;
+}
+.banner-img .btn-bottom li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 5px;
+    background: limegreen;
+}
+
+
+
+.banner .banner-news{
+    float: right;
+    padding: 20px 30px;
+    width: 385px;
+    height: 300px;
+    background: rgb(0, 128, 43);
+}
+.banner-news span{
+    border: 1px solid #168677;
+    padding: 3px 5px;
+    /* color: #ff6600; */
+    font-size: 12px;
+    font-weight: normal;
+    border-radius:3px ;
+}
+.banner-news a{
+    font-size: 18px;
+    color:#bbd5d8;
+
+}
+.banner-news p{
+    padding: 10px 0;
+    color: rgb(179, 194, 196);
+    line-height: 20px;
+    border-bottom: 1px solid #ad0d85;
+}
+.banner-news ul li{
+    font-size: 14px;
+    line-height: 1.8;
+
+    background: darkgoldenrod;
+    padding-left: 20px;
+
+}
+
+
+
+/* .first{
+    width:1170px ;
+    height:868px ;
+    margin:20px auto ;
+    padding: 20px;
+    background: rgba(207, 9, 19, 0.856);
+}
+.picture{
+    height: 74px;
+    background: rgb(0, 153, 255);
+}
+.another-bottom{
+    width: 1130px;
+    height: 754px;
+    margin:auto;
+    padding: 20px;
+    background: rgba(58, 116, 3, 0.938);
+}
+.another-bottom .another-bottom-title{
+    height: 29px;
+    border-bottom: 1px solid rgb(13, 177, 27);
+    margin-bottom: 20px;
+    background: rgb(16, 49, 122);
+}
+.another-bottom .another-bottom-next{
+    height: 640px;
+    margin-bottom: 20px;
+    background: rgba(167, 39, 167, 0.938);
+}
+.another-bottom-next .box-small{
+    float: left;
+    width: 115px;
+    height: 136px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background:rgb(75, 64, 3);
+    border:1px soild rgba(118, 118, 248, 0.801)
+}
+.anothers{
+    width: 200px;
+    height: 40px;
+    background: rgb(167, 16, 99);
+    margin: 0 auto;
+}
+} */
+
+/* sell */
+.phonea{
+    width: 1130px;
+    height: auto;
+    background:rgb(255, 43, 142);
+    margin: 20px auto;
+    padding: 20px;
+}
+/* .sell-service-title{
+    display: block;
+    line-height: 28px;
+    text-align: center;
+    color: cadetblue;
+    position: relative;
+} */
+.phonea-list{
+    height: auto;
+    background: coral;
+}
+.phonea-list .phonea-list-item{
+    float: left;
+    width: 121px;
+    height: 160px;
+    margin:0 10px 20px;
+    background: lightsalmon;
+    /* display: block; */
+}
+.phonea-list .phonea-list-item a{
+    display: block;
+    height: 100%;
+    background: rgb(22, 103, 158);
+}
+.phonea-list .phonea-list-item a img{
+    width: 100%;
+    height: 100%;
+}
+.phonea-list  .phonea-list-item-dixia{
+    display: block;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background: darkcyan;
+    border-radius: 30px;
+}
+/*  */
+.sell .sell-contenct .sell-contenct-bottom .sell-bottom-list .sell-list-item{
+    width: 542px;
+    height: 86px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    float: left;
+}
+.sell-contenct-bottom .sell-bottom-list .sell-list-item .sell-item1{
+    display: block;
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+.sell-contenct-bottom .sell-bottom-list .sell-list-item div{
+    width: 100%;
+    clear: both;
+}
+.sell-btn a{
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 10px;
+    font-size: 12px;
+    position: relative;
+    margin-right: 10px;
+}
+.sell-btn a::before{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 3px;
+    position:  absolute;
+    left: 0; 
+    /* 垂直居中 */
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: cadetblue;
+}
+.sell-btn a:hover{
+    color: cadetblue;
+}
+.sell-list-item a h2{
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 110px;
+}
+.sell-list-item a h2:hover{
+    color: cadetblue;
+}
+.sell-list-item  p{
+    font-size: 14px;
+    color: #888;
+    /* line-height: 20px; */
+    height: 30px;
+    padding: 5px 0 0 110px;
+}
+.sell .sell-contenct .sell-contenct-bottom .sell-bottom-list .two{
+    float: right;
+}
+
+/* ai */
+.ai .ai-contenct .ai-contenct-bottom .ai-bottom-list .ai-list-item{
+    width: 542px;
+    height: 86px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    float: left;
+    /* background: brown; */
+}
+.ai .ai-contenct .ai-contenct-bottom .ai-bottom-list .two{
+    /* margin-right: 46px; */
+    float: right;
+}
+
+/* video */
+.video .video-contenct .video-contenct-bottom .video-bottom-list .video-list-item{
+    width: 266.5px;
+    height: 208px;
+    margin: 0 7px 12px;
+    float: left;
+}
+.video-list-item a{
+    display: block;
+}
+.video-list-item a div{
+    height: 150px;
+}
+.video-list-item a div img{
+    width: 100%;
+}
+.video-list-item a h2{
+    color: #333;
+    padding: 5px 10px 5px 30px;
+    font-size: 15px;
+    position: relative;
+}
+.video-list-item a h2::before{
+    content: '';
+    display: block;
+    width: 16px;
+    height: 10px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    left: 6px;
+    border-radius: 3px;
+}
+.video-list-item a h2:hover{
+    color: cadetblue;
+}
+.video-list-item a ul{
+    width: 228px;
+    height: 14px;
+    padding: 0 10px;
+    margin: 5px 0;
+    clear: both;
+}
+.video-list-item a ul li{
+    font-size: 12px;
+    color: #999;
+    float: left;
+    line-height: 14px;
+}
+.video-list-item a ul .video-right{
+    float: right;
+}
+
+/* sort */
+.sort .sort-contenct .sort-contenct-bottom{
+    width: 100%;
+    height: auto;
+}
+.sort .sort-contenct .sort-contenct-bottom .sort-bottom-list{
+    height: auto;
+}
+.sort .sort-contenct .sort-contenct-bottom .sort-bottom-list .sort-list-item{
+    height: 20px;
+    width: 511px;
+    margin: 0 0 10px;
+    /* background: rgb(238, 135, 175); */
+}
+.sort-list-item a{
+    padding-left: 20px;
+    float: left;
+    position: relative;
+}
+.sort-list-item a::before{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 4px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -2px;
+}
+.sort-list-item a:hover{
+    color: cadetblue;
+}
+.sort-list-item span{
+    float: right;
+    font-size: 12px;
+    color: #888;
+    line-height: 20px;
+}
+.sort .sort-contenct .sort-contenct-bottom .sort-left{
+    float: left;
+}
+.sort .sort-contenct .sort-contenct-bottom .sort-right{
+    float: right;
+}
